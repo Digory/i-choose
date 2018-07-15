@@ -7,7 +7,7 @@
     tools:context=".SecondActivity">
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/breakfastBtn"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginBottom="16dp"
@@ -18,14 +18,14 @@
         android:layout_marginTop="16dp"
         android:background="@color/colorPrimary"
         android:scaleType="fitXY"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton2"
+        app:layout_constraintBottom_toTopOf="@+id/lunchBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/breakfast" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/lunchBtn"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginBottom="16dp"
@@ -43,7 +43,7 @@
         app:srcCompat="@drawable/lunch" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/dinnerBtn"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginBottom="16dp"
@@ -57,6 +57,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+        app:layout_constraintTop_toBottomOf="@+id/lunchBtn"
         app:srcCompat="@drawable/dinner" />
 </android.support.constraint.ConstraintLayout>

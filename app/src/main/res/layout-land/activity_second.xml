@@ -7,7 +7,7 @@
     tools:context=".SecondActivity">
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/breakfastBtn"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginBottom="16dp"
@@ -22,7 +22,7 @@
         app:srcCompat="@drawable/breakfast" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/lunchBtn"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginBottom="16dp"
@@ -34,13 +34,13 @@
         android:background="@color/colorPrimary"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton3"
-        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        app:layout_constraintEnd_toStartOf="@+id/dinnerBtn"
+        app:layout_constraintStart_toEndOf="@+id/breakfastBtn"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/lunch" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/dinnerBtn"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginBottom="16dp"
