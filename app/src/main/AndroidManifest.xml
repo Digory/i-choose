@@ -20,7 +20,8 @@
         <activity android:name=".SnackActivity" />
         <activity android:name=".full_screen_buttons.ToiletActivity" />
         <activity android:name=".full_screen_buttons.BreakfastActivity" />
-        <activity android:name=".full_screen_buttons.LunchActivity"></activity>
+        <activity android:name=".full_screen_buttons.LunchActivity" />
+        <activity android:name=".full_screen_buttons.DinnerActivity"></activity>
     </application>
 
 </manifest>
