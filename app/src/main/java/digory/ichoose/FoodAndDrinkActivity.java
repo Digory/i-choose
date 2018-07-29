@@ -11,6 +11,7 @@ import android.widget.ImageButton;
 
 import digory.ichoose.full_screen_buttons.BreakfastActivity;
 import digory.ichoose.full_screen_buttons.DinnerActivity;
+import digory.ichoose.full_screen_buttons.DrinkActivity;
 import digory.ichoose.full_screen_buttons.LunchActivity;
 
 public class FoodAndDrinkActivity extends AppCompatActivity {
@@ -47,14 +48,14 @@ public class FoodAndDrinkActivity extends AppCompatActivity {
             }
         });
 
-//        ImageButton drinkBtn = (ImageButton) findViewById(R.id.drinkBtn);
-//        final MediaPlayer playDrink = MediaPlayer.create(this, R.raw.drink);
-//        dinnerBtn.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                playDrink.start();
-//            }
-//        });
+        ImageButton drinkBtn = (ImageButton) findViewById(R.id.drinkBtn);
+        drinkBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent startIntent = new Intent(getApplicationContext(), DrinkActivity.class);
+                startActivity(startIntent);
+            }
+        });
 
         ImageButton snackBtn = (ImageButton) findViewById(R.id.snackBtn);
         snackBtn.setOnClickListener(new View.OnClickListener() {
