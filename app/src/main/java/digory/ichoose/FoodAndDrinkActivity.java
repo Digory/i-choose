@@ -53,7 +53,7 @@ public class FoodAndDrinkActivity extends AppCompatActivity {
         });
 
         ImageButton snackBtn = (ImageButton) findViewById(R.id.snackBtn);
-        dinnerBtn.setOnClickListener(new View.OnClickListener() {
+        snackBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent startIntent = new Intent(getApplicationContext(), SnackActivity.class);

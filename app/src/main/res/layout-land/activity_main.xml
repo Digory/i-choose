@@ -7,25 +7,28 @@
     tools:context=".MainActivity">
 
     <ImageButton
-        android:id="@+id/foodAndDrinkImageButton"
-        android:layout_width="170dp"
-        android:layout_height="170dp"
+        android:id="@+id/foodAndDrinkBtn"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:background="@color/colorPrimary"
         android:cropToPadding="false"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/activitiesBtn"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/food_and_drink" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="170dp"
-        android:layout_height="170dp"
+        android:id="@+id/activitiesBtn"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
@@ -42,18 +45,21 @@
         app:srcCompat="@drawable/activities" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
-        android:layout_width="170dp"
-        android:layout_height="170dp"
+        android:id="@+id/toiletBtn"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:background="@color/colorPrimary"
         android:cropToPadding="false"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/activitiesBtn"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/toilet" />
 </android.support.constraint.ConstraintLayout>

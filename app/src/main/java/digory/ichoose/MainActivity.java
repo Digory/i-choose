@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ImageButton foodAndDrinkButton = (ImageButton) findViewById(R.id.foodAndDrinkImageButton);
+        ImageButton foodAndDrinkButton = (ImageButton) findViewById(R.id.foodAndDrinkBtn);
         foodAndDrinkButton.setOnClickListener(new View.OnClickListener(){
 
             @Override
