@@ -8,20 +8,21 @@ import android.widget.ImageButton;
 
 import digory.ichoose.R;
 
-public class BreakfastActivity extends AppCompatActivity {
+public class LunchActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_breakfast);
+        setContentView(R.layout.activity_lunch);
 
-        ImageButton breakfastButtonLarge = (ImageButton) findViewById(R.id.breakfastBtnLarge);
-        final MediaPlayer playBreakfast = MediaPlayer.create(this, R.raw.breakfast);
-        breakfastButtonLarge.setOnClickListener(new View.OnClickListener() {
+        ImageButton lunchButtonLarge = (ImageButton) findViewById(R.id.lunchBtnLarge);
+        final MediaPlayer playLunch = MediaPlayer.create(this, R.raw.lunch);
+        lunchButtonLarge.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                playBreakfast.start();
+                playLunch.start();
             }
         });
+
     }
 }

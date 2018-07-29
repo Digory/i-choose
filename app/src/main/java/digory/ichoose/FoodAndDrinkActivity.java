@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.ImageButton;
 
 import digory.ichoose.full_screen_buttons.BreakfastActivity;
+import digory.ichoose.full_screen_buttons.LunchActivity;
 
 public class FoodAndDrinkActivity extends AppCompatActivity {
 
@@ -19,7 +20,6 @@ public class FoodAndDrinkActivity extends AppCompatActivity {
         setContentView(R.layout.activity_food_and_drink);
 
         ImageButton breakfastBtn = (ImageButton) findViewById(R.id.breakfastBtn);
-        final MediaPlayer playBreakfast = MediaPlayer.create(this, R.raw.breakfast);
         breakfastBtn.setOnClickListener(new View.OnClickListener(){
 
             public void onClick(View v) {
@@ -29,11 +29,11 @@ public class FoodAndDrinkActivity extends AppCompatActivity {
         });
 
         ImageButton lunchBtn = (ImageButton) findViewById(R.id.lunchBtn);
-        final MediaPlayer playLunch = MediaPlayer.create(this, R.raw.lunch);
         lunchBtn.setOnClickListener(new View.OnClickListener(){
 
             public void onClick(View v) {
-                playLunch.start();
+                Intent startIntent = new Intent(getApplicationContext(), LunchActivity.class);
+                startActivity(startIntent);
             }
         });
 
