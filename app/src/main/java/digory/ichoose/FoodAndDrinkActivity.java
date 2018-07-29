@@ -9,6 +9,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 
+import digory.ichoose.full_screen_buttons.BreakfastActivity;
+
 public class FoodAndDrinkActivity extends AppCompatActivity {
 
     @Override
@@ -21,7 +23,8 @@ public class FoodAndDrinkActivity extends AppCompatActivity {
         breakfastBtn.setOnClickListener(new View.OnClickListener(){
 
             public void onClick(View v) {
-                playBreakfast.start();
+                Intent startIntent = new Intent(getApplicationContext(), BreakfastActivity.class);
+                startActivity(startIntent);
             }
         });
 

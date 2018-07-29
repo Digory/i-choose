@@ -19,6 +19,7 @@
         <activity android:name=".FoodAndDrinkActivity" />
         <activity android:name=".SnackActivity" />
         <activity android:name=".full_screen_buttons.ToiletActivity" />
+        <activity android:name=".full_screen_buttons.BreakfastActivity"></activity>
     </application>
 
 </manifest>

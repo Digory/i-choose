@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SecondActivity"
-    tools:layout_editor_absoluteY="25dp">
+    tools:context=".FoodAndDrinkActivity"
+    tools:layout_editor_absoluteY="25dp"
+    android:background="@color/colorPrimary">
 
     <ImageButton
         android:id="@+id/breakfastBtn"
