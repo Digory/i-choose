@@ -24,5 +24,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(startIntent);
             }
         });
+
+        ImageButton toiletButton = (ImageButton) findViewById(R.id.toiletBtn);
+        toiletButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent startIntent = new Intent(getApplicationContext(), digory.ichoose.full_screen_buttons.ToiletActivity.class);
+                startActivity(startIntent);
+            }
+        });
     }
 }
