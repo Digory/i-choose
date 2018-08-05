@@ -14,6 +14,7 @@ import digory.ichoose.full_screen_buttons.GardenActivity;
 import digory.ichoose.full_screen_buttons.ParkActivity;
 import digory.ichoose.full_screen_buttons.PuzzleActivity;
 import digory.ichoose.full_screen_buttons.TvActivity;
+import digory.ichoose.full_screen_buttons.VideoGameActivity;
 
 public class ActivitiesActivity extends AppCompatActivity {
 
@@ -90,6 +91,15 @@ public class ActivitiesActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent startIntent = new Intent(getApplicationContext(), TvActivity.class);
+                startActivity(startIntent);
+            }
+        });
+
+        ImageButton videoGameButton = (ImageButton) findViewById(R.id.videogameBtn);
+        videoGameButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent startIntent = new Intent(getApplicationContext(), VideoGameActivity.class);
                 startActivity(startIntent);
             }
         });

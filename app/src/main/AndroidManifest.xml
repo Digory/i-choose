@@ -41,7 +41,8 @@
         <activity android:name=".full_screen_buttons.GardenActivity" />
         <activity android:name=".full_screen_buttons.ParkActivity" />
         <activity android:name=".full_screen_buttons.PuzzleActivity" />
-        <activity android:name=".full_screen_buttons.TvActivity"></activity>
+        <activity android:name=".full_screen_buttons.TvActivity" />
+        <activity android:name=".full_screen_buttons.VideoGameActivity"></activity>
     </application>
 
 </manifest>
