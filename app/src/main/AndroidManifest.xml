@@ -30,7 +30,9 @@
         <activity android:name=".full_screen_buttons.BiscuitActivity" />
         <activity android:name=".full_screen_buttons.CerealActivity" />
         <activity android:name=".full_screen_buttons.ToastActivity" />
-        <activity android:name=".full_screen_buttons.OrangeActivity"></activity>
+        <activity android:name=".full_screen_buttons.OrangeActivity" />
+        <activity android:name=".full_screen_buttons.SweetsActivity" />
+        <activity android:name=".full_screen_buttons.CrispsActivity"></activity>
     </application>
 
 </manifest>
