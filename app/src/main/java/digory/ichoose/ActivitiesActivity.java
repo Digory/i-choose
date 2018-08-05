@@ -1,6 +1,5 @@
 package digory.ichoose;
 
-import android.app.Application;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -9,7 +8,8 @@ import android.widget.ImageButton;
 
 import digory.ichoose.full_screen_buttons.BookActivity;
 import digory.ichoose.full_screen_buttons.ComputerActivity;
-import digory.ichoose.full_screen_buttons.CookingActivity;
+import digory.ichoose.full_screen_buttons.CookActivity;
+import digory.ichoose.full_screen_buttons.DrawActivity;
 
 public class ActivitiesActivity extends AppCompatActivity {
 
@@ -36,11 +36,20 @@ public class ActivitiesActivity extends AppCompatActivity {
             }
         });
 
-        ImageButton cookingButton = (ImageButton) findViewById(R.id.cookingBtn);
-        cookingButton.setOnClickListener(new View.OnClickListener() {
+        ImageButton cookButton = (ImageButton) findViewById(R.id.cookBtn);
+        cookButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent startIntent = new Intent(getApplicationContext(), CookingActivity.class);
+                Intent startIntent = new Intent(getApplicationContext(), CookActivity.class);
+                startActivity(startIntent);
+            }
+        });
+
+        ImageButton drawButton = (ImageButton) findViewById(R.id.drawBtn);
+        drawButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent startIntent = new Intent(getApplicationContext(), DrawActivity.class);
                 startActivity(startIntent);
             }
         });

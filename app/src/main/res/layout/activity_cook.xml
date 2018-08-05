@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".full_screen_buttons.CookingActivity"
+    tools:context=".full_screen_buttons.CookActivity"
     android:background="@color/colorPrimary">
 
     <ImageButton
-        android:id="@+id/cookingBtnLarge"
+        android:id="@+id/cookBtnLarge"
         android:layout_width="250dp"
         android:layout_height="250dp"
         android:layout_marginBottom="8dp"
@@ -20,9 +20,9 @@
         android:background="@color/colorPrimary"
         android:cropToPadding="false"
         android:scaleType="fitCenter"
+        android:src="@drawable/cook"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/cooking" />
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
