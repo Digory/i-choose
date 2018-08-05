@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
+import digory.ichoose.full_screen_buttons.BookActivity;
+
 public class ActivitiesActivity extends AppCompatActivity {
 
     @Override
