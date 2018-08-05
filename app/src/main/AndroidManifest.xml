@@ -37,7 +37,8 @@
         <activity android:name=".full_screen_buttons.BookActivity" />
         <activity android:name=".full_screen_buttons.ComputerActivity" />
         <activity android:name=".full_screen_buttons.CookActivity" />
-        <activity android:name=".full_screen_buttons.DrawActivity"></activity>
+        <activity android:name=".full_screen_buttons.DrawActivity" />
+        <activity android:name=".full_screen_buttons.GardenActivity"></activity>
     </application>
 
 </manifest>

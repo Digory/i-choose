@@ -10,6 +10,7 @@ import digory.ichoose.full_screen_buttons.BookActivity;
 import digory.ichoose.full_screen_buttons.ComputerActivity;
 import digory.ichoose.full_screen_buttons.CookActivity;
 import digory.ichoose.full_screen_buttons.DrawActivity;
+import digory.ichoose.full_screen_buttons.GardenActivity;
 
 public class ActivitiesActivity extends AppCompatActivity {
 
@@ -50,6 +51,15 @@ public class ActivitiesActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent startIntent = new Intent(getApplicationContext(), DrawActivity.class);
+                startActivity(startIntent);
+            }
+        });
+
+        ImageButton gardenButton = (ImageButton) findViewById(R.id.gardenBtn);
+        gardenButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent startIntent = new Intent(getApplicationContext(), GardenActivity.class);
                 startActivity(startIntent);
             }
         });
