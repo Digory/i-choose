@@ -13,6 +13,7 @@ import digory.ichoose.full_screen_buttons.DrawActivity;
 import digory.ichoose.full_screen_buttons.GardenActivity;
 import digory.ichoose.full_screen_buttons.ParkActivity;
 import digory.ichoose.full_screen_buttons.PuzzleActivity;
+import digory.ichoose.full_screen_buttons.TvActivity;
 
 public class ActivitiesActivity extends AppCompatActivity {
 
@@ -80,6 +81,15 @@ public class ActivitiesActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent startIntent = new Intent(getApplicationContext(), PuzzleActivity.class);
+                startActivity(startIntent);
+            }
+        });
+
+        ImageButton tvButton = (ImageButton) findViewById(R.id.tvBtn);
+        tvButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent startIntent = new Intent(getApplicationContext(), TvActivity.class);
                 startActivity(startIntent);
             }
         });
