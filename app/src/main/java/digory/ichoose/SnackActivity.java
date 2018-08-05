@@ -12,6 +12,7 @@ import digory.ichoose.full_screen_buttons.BiscuitActivity;
 import digory.ichoose.full_screen_buttons.CerealActivity;
 import digory.ichoose.full_screen_buttons.ChocolateActivity;
 import digory.ichoose.full_screen_buttons.SandwichActivity;
+import digory.ichoose.full_screen_buttons.ToastActivity;
 
 public class SnackActivity extends AppCompatActivity {
 
@@ -70,6 +71,15 @@ public class SnackActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent startIntent = new Intent(getApplicationContext(), CerealActivity.class);
+                startActivity(startIntent);
+            }
+        });
+
+        ImageButton toastButton = (ImageButton) findViewById(R.id.toastBtn);
+        toastButton.setOnClickListener(new View.OnClickListener()  {
+            @Override
+            public void onClick(View view) {
+                Intent startIntent = new Intent(getApplicationContext(), ToastActivity.class);
                 startActivity(startIntent);
             }
         });
