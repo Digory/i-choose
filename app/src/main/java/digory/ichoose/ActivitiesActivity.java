@@ -103,5 +103,14 @@ public class ActivitiesActivity extends AppCompatActivity {
                 startActivity(startIntent);
             }
         });
+
+        ImageButton travelButton = (ImageButton) findViewById(R.id.travelBtn);
+        travelButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent startIntent = new Intent(getApplicationContext(), TravelActivity.class);
+                startActivity(startIntent);
+            }
+        });
     }
 }
