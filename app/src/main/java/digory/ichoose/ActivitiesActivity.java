@@ -11,6 +11,7 @@ import digory.ichoose.full_screen_buttons.ComputerActivity;
 import digory.ichoose.full_screen_buttons.CookActivity;
 import digory.ichoose.full_screen_buttons.DrawActivity;
 import digory.ichoose.full_screen_buttons.GardenActivity;
+import digory.ichoose.full_screen_buttons.ParkActivity;
 
 public class ActivitiesActivity extends AppCompatActivity {
 
@@ -60,6 +61,15 @@ public class ActivitiesActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent startIntent = new Intent(getApplicationContext(), GardenActivity.class);
+                startActivity(startIntent);
+            }
+        });
+
+        ImageButton parkButton = (ImageButton) findViewById(R.id.parkBtn);
+        parkButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent startIntent = new Intent(getApplicationContext(), ParkActivity.class);
                 startActivity(startIntent);
             }
         });

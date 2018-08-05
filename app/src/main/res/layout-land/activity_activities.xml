@@ -78,8 +78,8 @@
         android:cropToPadding="false"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/tvBtn"
-        app:layout_constraintStart_toEndOf="@+id/cookBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/parkBtn"
         app:srcCompat="@drawable/garden" />
 
@@ -97,8 +97,8 @@
         android:cropToPadding="false"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toTopOf="@+id/gardenBtn"
-        app:layout_constraintEnd_toStartOf="@+id/tvBtn"
-        app:layout_constraintStart_toEndOf="@+id/drawBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/park" />
 
