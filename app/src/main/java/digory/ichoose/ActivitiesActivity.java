@@ -9,6 +9,7 @@ import android.widget.ImageButton;
 
 import digory.ichoose.full_screen_buttons.BookActivity;
 import digory.ichoose.full_screen_buttons.ComputerActivity;
+import digory.ichoose.full_screen_buttons.CookingActivity;
 
 public class ActivitiesActivity extends AppCompatActivity {
 
@@ -31,6 +32,15 @@ public class ActivitiesActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent startIntent = new Intent(getApplicationContext(), ComputerActivity.class);
+                startActivity(startIntent);
+            }
+        });
+
+        ImageButton cookingButton = (ImageButton) findViewById(R.id.cookingBtn);
+        cookingButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent startIntent = new Intent(getApplicationContext(), CookingActivity.class);
                 startActivity(startIntent);
             }
         });

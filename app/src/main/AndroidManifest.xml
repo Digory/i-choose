@@ -35,7 +35,8 @@
         <activity android:name=".full_screen_buttons.CrispsActivity" />
         <activity android:name=".ActivitiesActivity" />
         <activity android:name=".full_screen_buttons.BookActivity" />
-        <activity android:name=".full_screen_buttons.ComputerActivity"></activity>
+        <activity android:name=".full_screen_buttons.ComputerActivity" />
+        <activity android:name=".full_screen_buttons.CookingActivity"></activity>
     </application>
 
 </manifest>
