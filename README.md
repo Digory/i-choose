@@ -21,7 +21,7 @@ WHAT THE APP DOES
 
 The main screen divides symbols into 3 categories: Food and Drink, Activities, and Toilet. I prioritised the toilet symbol as being in the main screen, and hence quickly available, my logic being that may be a symbol needed in a hurry. 
 
-The user can navigate through the categories and find the appropriate symbol. Categories are further subdivided on the following screens. The example in the  screenshots shows a user navigating to "Orange". The route to get there is: FOOD AND DRINK -> SNACKS -> ORANGE. The screen can be viewed in landscape or portrait mode. 
+The user can navigate through the categories and find the appropriate symbol. Categories are further subdivided on the following screens. The example in the  screenshots shows a user navigating to "Orange". The route to get there is: FOOD AND DRINK -> SNACK -> ORANGE. The screen can be viewed in landscape or portrait mode. 
 
 Once the user finds the symbol they want, they tap the symbol to enlarge it, and tap again to have the word spoken out loud by the app. So, in the screenshots.pdf example, the word "Orange" is said. 
 
