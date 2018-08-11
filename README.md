@@ -11,7 +11,7 @@ There has been software developed for the Apple iPad to enable communication usi
 
 Unfortunately, this software is expensive and requires a monthly subscription. It is mainly used in schools or other organisations, rather than something a family would typically buy, particularly if they are on a low income. The requirement to purchase an iPad (not cheap!) is another barrier.
 
-This app aims to provide a free alternative, for Android. This is an ongoing project and any suggestions for improvement are appreciated! :-D
+This app aims to provide a free alternative, for Android, that can be used anywhere. This is an ongoing project and any suggestions for improvement are appreciated! :-D
 
 -----------------------------------------------------------------------------------------
 WHAT THE APP DOES
