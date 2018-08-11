@@ -7,7 +7,7 @@ BACKGROUND
 
 My previous job involved working with children and young people with difficulties in communicating verbally. They would communicate using symbols, i.e. small pieces of laminated paper with pictures on them. For example, if a child needs to go to the toilet they can show an adult the "toilet" symbol, which has a clear, cartoon-style picture of a toilet and the word "toilet" on it.
 
-There has been software developed for the Apple iPad to enable communication using the same principles. It uses the same symbols but on a screen. This is helpful as paper symbols are easily lost. Additionally it is much easier for a child to find the symbol they need in this way rather than searching through a large book of symbols.
+There has been software developed for the Apple iPad to enable communication using similar principles. It uses the same symbols but on a screen. This is helpful as paper symbols are easily lost. Additionally it is much easier for a child to find the symbol they need in this way rather than searching through a large book of symbols.
 
 Unfortunately, this software is expensive and requires a monthly subscription. It is mainly used in schools or other organisations, rather than something a family would typically buy, particularly if they are on a low income. The requirement to purchase an iPad (not cheap!) is another barrier.
 
