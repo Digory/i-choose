@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 
 import digory.ichoose.full_screen_buttons.AeroplaneActivity;
@@ -12,6 +13,7 @@ import digory.ichoose.full_screen_buttons.BusActivity;
 import digory.ichoose.full_screen_buttons.CarActivity;
 import digory.ichoose.full_screen_buttons.TrainActivity;
 import digory.ichoose.full_screen_buttons.TramActivity;
+import digory.ichoose.full_screen_buttons.WalkActivity;
 
 public class TravelActivity extends AppCompatActivity {
 
@@ -48,7 +50,7 @@ public class TravelActivity extends AppCompatActivity {
         });
 
         ImageButton carButton = (ImageButton) findViewById(R.id.carBtn);
-        busButton.setOnClickListener(new View.OnClickListener() {
+        carButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent startIntent = new Intent(getApplicationContext(), CarActivity.class);
@@ -57,7 +59,7 @@ public class TravelActivity extends AppCompatActivity {
         });
 
         ImageButton trainButton = (ImageButton) findViewById(R.id.trainBtn);
-        busButton.setOnClickListener(new View.OnClickListener() {
+        trainButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent startIntent = new Intent(getApplicationContext(), TrainActivity.class);
@@ -66,7 +68,7 @@ public class TravelActivity extends AppCompatActivity {
         });
 
         ImageButton tramButton = (ImageButton) findViewById(R.id.tramBtn);
-        busButton.setOnClickListener(new View.OnClickListener() {
+        tramButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent startIntent = new Intent(getApplicationContext(), TramActivity.class);
@@ -75,7 +77,7 @@ public class TravelActivity extends AppCompatActivity {
         });
 
         ImageButton walkButton = (ImageButton) findViewById(R.id.walkBtn);
-        busButton.setOnClickListener(new View.OnClickListener() {
+        walkButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent startIntent = new Intent(getApplicationContext(), WalkActivity.class);
