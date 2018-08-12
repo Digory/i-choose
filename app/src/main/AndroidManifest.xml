@@ -44,7 +44,8 @@
         <activity android:name=".full_screen_buttons.TvActivity" />
         <activity android:name=".full_screen_buttons.VideoGameActivity" />
         <activity android:name=".TravelActivity" />
-        <activity android:name=".full_screen_buttons.AeroplaneActivity"></activity>
+        <activity android:name=".full_screen_buttons.AeroplaneActivity" />
+        <activity android:name=".full_screen_buttons.BicycleActivity"></activity>
     </application>
 
 </manifest>
