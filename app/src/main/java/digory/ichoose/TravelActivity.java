@@ -63,5 +63,14 @@ public class TravelActivity extends AppCompatActivity {
                 startActivity(startIntent);
             }
         });
+
+        ImageButton tramButton = (ImageButton) findViewById(R.id.tramBtn);
+        busButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent startIntent = new Intent(getApplicationContext(), TramActivity.class);
+                startActivity(startIntent);
+            }
+        });
     }
 }

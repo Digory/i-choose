@@ -48,7 +48,8 @@
         <activity android:name=".full_screen_buttons.BicycleActivity" />
         <activity android:name=".full_screen_buttons.BusActivity" />
         <activity android:name=".full_screen_buttons.CarActivity" />
-        <activity android:name=".full_screen_buttons.TrainActivity"></activity>
+        <activity android:name=".full_screen_buttons.TrainActivity" />
+        <activity android:name=".full_screen_buttons.TramActivity"></activity>
     </application>
 
 </manifest>
