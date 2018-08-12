@@ -8,6 +8,7 @@ import android.widget.ImageButton;
 
 import digory.ichoose.full_screen_buttons.AeroplaneActivity;
 import digory.ichoose.full_screen_buttons.BicycleActivity;
+import digory.ichoose.full_screen_buttons.BusActivity;
 
 public class TravelActivity extends AppCompatActivity {
 
@@ -30,6 +31,15 @@ public class TravelActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent startIntent = new Intent(getApplicationContext(), BicycleActivity.class);
+                startActivity(startIntent);
+            }
+        });
+
+        ImageButton busButton = (ImageButton) findViewById(R.id.busBtn);
+        busButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent startIntent = new Intent(getApplicationContext(), BusActivity.class);
                 startActivity(startIntent);
             }
         });
