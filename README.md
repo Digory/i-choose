@@ -5,13 +5,13 @@ A communication app for Android. Designed for children with learning disabilitie
 BACKGROUND
 ------------------------------------------------------------------------------------------
 
-My previous job involved working with children and young people with difficulties in communicating verbally. They would communicate using symbols, i.e. small pieces of laminated paper with pictures on them. For example, if a child needs to go to the toilet they can show an adult the "toilet" symbol, which has a clear, cartoon-style picture of a toilet and the word "toilet" on it.
+There are many children who struggle to communicate their needs verbally. e.g. children with autism, learning disabilities etc. A common communication method is to use cartoon-style picture symbols made out of paper, with which they can show a carer what they want or need. 
 
-There has been software developed for the Apple iPad to enable communication using similar principles. It uses the same symbols but on a screen. This is helpful as paper symbols are easily lost. Additionally it is much easier for a child to find the symbol they need in this way rather than searching through a large book of symbols.
+The aim of the app is to provide the same functionality as the paper symbols, in a digital form.
 
-Unfortunately, this software is expensive and requires a monthly subscription. It is mainly used in schools or other organisations, rather than something a family would typically buy, particularly if they are on a low income. The requirement to purchase an iPad (not cheap!) is another barrier.
+**SEPTEMBER 2018 UPDATE**
 
-This app aims to provide a free alternative, for Android, that can be used anywhere. This is an ongoing project and any suggestions for improvement are appreciated! :-D
+The functionality has been extended in the form of a web app as part of a joint project with Vicky Jackson ( https://github.com/vickyjackson ) See here for more details: https://github.com/Digory/i-choose-web-app
 
 -----------------------------------------------------------------------------------------
 WHAT THE APP DOES
@@ -32,6 +32,7 @@ CREDITS/ATTRIBUTION
 The majority of the image vectors were provided by Vecteezy.com and are under the Vecteezy Standard Licence. The slightly less good images were created by me.
 
 Audio is provided by the open-source speech synthesizer eSpeakNG.
+
 
 
 
